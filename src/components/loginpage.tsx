@@ -14,7 +14,7 @@ const LoginPage: React.FC<{ setLoggedIn: (loggedIn: boolean) => void }> = ({
 
   return (
     <div>
-      <button onClick={loginHandle} style={{ cursor: "pointer" }}>
+      <button onClick={loginHandle} >
         Login
       </button>
     </div>
